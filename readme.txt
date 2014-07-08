@@ -1,5 +1,22 @@
 This Program is written by Noha Elprince using python 2.7.6 and database postgres 9.3.4
 
+Objective:
+===========
+Given a table 'mailing':
+
+CREATE TABLE mailing (
+	addr VARCHAR(255) NOT NULL
+);
+
+The mailing table will initially be empty.  New addresses will be added on a daily basis.  It is expected that the table will store at least 10,000,000 email addresses and 100,000 domains.
+
+Write a python script that updates another table which holds a daily count of email addresses by their domain name.
+
+This table will be used to report the top 50 domains by count sorted by percentage growth of the last 30 days compared to the total.
+
+
+
+
 Notes :
 ======
 
